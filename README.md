@@ -1,4 +1,4 @@
-# **GIT & GITHUB DOCUMENTATION AND COMMANDS..**
+# **GIT & GITHUB COMMANDS..**
 
 * **Designed By - [Gaurav Chauhan](https://github.com/gaurav-210)**
 
