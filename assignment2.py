@@ -4,9 +4,24 @@ print("hi \n"
       "I'm  Gaurav chauhan \n"
       "Currently I'm Persuing Bachelor Of Technology In Electronics And Communication engineering")
 
+
+
+
 # Q2. join  two strings using +
 
-print("Gautrav "  + "Chauhan")
+# first method
+print("Gautrav " + "Chauhan")
+
+# second method
+x= ("Karan")
+y=(" chauhan")
+print(x+y)
+
+# third method
+x=input( "first Name: ")
+y=input( " Last Name: ")
+z=(x+y)
+print(z)
 
 # Q3 . take the input of 3 variable x,y and 2 . priont their value on screen
 
@@ -17,12 +32,19 @@ print(z)
 
 # Q4 . print lets's get started on screen
 
+
+# first method
 print("Let's Get Started")
+
+
+# second method
+
+print('let\'s Get Started')
 
 # Q5 . print the following values using placeholder s= "acadview" course="python" fees=5000 "
 
-s = "acadview"
-course =" python "
+s = "Acadview"
+course ="Python "
 fees = "5000 "
 print("%s  %s  %s " %(s,course,fees) )
 
