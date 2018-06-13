@@ -45,8 +45,8 @@ print('let\'s Get Started')
 
 s = "Acadview"
 course ="Python "
-fees = "5000 "
-print("%s  %s  %s " %(s,course,fees) )
+fees = 5000
+print("%s  %s  %d " %(s,course,fees) )
 
 # Q6 . let's do some exercise  name ="Tony stark" salary=1000000 print('%s''%d')%(_____,_____)
 
