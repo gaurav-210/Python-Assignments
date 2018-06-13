@@ -27,8 +27,9 @@ print(z)
 
 x=int (input("Enter A Number: "))
 y=int (input("Enter Another Number: "))
-z=(x+y)
-print(z)
+z=int(input("Enter another number: "))
+p=x+y+z
+print(p)
 
 # Q4 . print lets's get started on screen
 
