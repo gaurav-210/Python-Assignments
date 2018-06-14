@@ -57,3 +57,39 @@ print(C)
 
 # Q 6 implement a stack and queue using list
 
+# stack operations
+
+S = ["Gaurav", "Ayush", "Manisha"]
+S.append("Karan")
+S.append("Mayank")
+print(S)
+print(S.pop())
+print(S)
+print(S.pop())
+print(S)
+
+
+# queue operations
+
+
+queue =(["Manisha", "Gaurav", "Ayush" ,"Rajat"])
+print(queue)
+queue.append("Tarun")
+print(queue)
+print(queue.pop())
+queue.append("Ram")
+print(queue)
+print(queue.pop())
+print(queue)
+
+
+
+
+# Q6 optional question
+
+
+li = [1,2,3,4,5,6,7,8,9,99,100]
+even =[i for i in li if i%2 !=0]
+odd=[i for i in li if i%2 == 0]
+print(even)
+print(odd)
