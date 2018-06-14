@@ -89,7 +89,21 @@ print(queue)
 
 
 li = [1,2,3,4,5,6,7,8,9,99,100]
-odd =[i for i in li if i%2 !=0]
-even=[i for i in li if i%2 == 0]
-print(even)
-print(odd)
+even_count=0
+odd_count=0
+for i in li:
+     if i%2==0:
+
+         even_count=even_count+1
+
+     else:
+         odd_count=odd_count+1
+
+         print("count even no in list", even_count)
+
+         print("count odd no in list ", odd_count)
+
+
+
+
+
