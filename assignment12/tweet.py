@@ -1,4 +1,4 @@
-
+﻿
 
 # Q.1- What is an access token? Generate your access token for any API.(for example Twitter,Spotify etc).
 
@@ -39,12 +39,12 @@
 # Q.3- Using Tweepy library try to extract tweets from Twitter.
 import tweepy
 
-consumer_key='GnFlb7sJNFyDG45OvCSmUhJ41'
-consumer_secret='hy6sbQ8CE1ljxDGPxUeRxUscY9YasWILrHJLpWF7NgCYMoAXaU'
+consumer_key=''
+consumer_secret=''
 
-access_token='869175777174192128-glzUFLBmWrVuqkPIAvjIUnYU6ciypIB'
+access_token=''
 
-access_token_secret='61EekDxl3H4ijSCVISHPoJe1UkfW0aR63aLvzew0HhJ9P'
+access_token_secret=''
 
 auth=tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
@@ -64,12 +64,12 @@ for tweet in tweets:
 hash=input("enter hashtag")
 n=input("counts")
 
-consumer_key='GnFlb7sJNFyDG45OvCSmUhJ41'
-consumer_secret='hy6sbQ8CE1ljxDGPxUeRxUscY9YasWILrHJLpWF7NgCYMoAXaU'
+consumer_key=''
+consumer_secret=''
 
-access_token='869175777174192128-glzUFLBmWrVuqkPIAvjIUnYU6ciypIB'
+access_token=''
 
-access_token_secret='61EekDxl3H4ijSCVISHPoJe1UkfW0aR63aLvzew0HhJ9P'
+access_token_secret=''
 
 auth=tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
